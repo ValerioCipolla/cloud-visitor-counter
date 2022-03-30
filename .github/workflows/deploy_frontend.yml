@@ -1,4 +1,4 @@
-name: Deploy Frontend
+name: Sync frontend
 
 on:
   push:
@@ -24,4 +24,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-west-2
       - name: Deploy to S3
-        run: npm run deploy-frontend
+        run: npm run s3-upload
