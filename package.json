@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s3-upload": "aws s3 sync frontend/ s3://cloud-visitor-counter/",
-    "invalidate-cloudfront": "aws cloudfront create-invalidation --distribution-id E2J8SANLXXY1I1 --paths '//*'"
+    "s3-upload": "aws s3 sync frontend/ s3://cloud-visitor-counter/"
   },
   "repository": {
     "type": "git",
