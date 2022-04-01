@@ -1,5 +1,5 @@
 # cloud-visitor-counter
-Following the cloud resume challenge I am building a simple website that displays how many times it's visited. 
+Following the [cloud resume challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/) I am building a simple website that displays how many times it's visited. 
 
 I am hoping to learn more about the Cloud, AWS and DevOps.
 
