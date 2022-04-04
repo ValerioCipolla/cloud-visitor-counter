@@ -1,5 +1,4 @@
 const counter = document.getElementById("counter");
-counter.textContent = 1;
 
 async function fetchData() {
   const res = await fetch(
@@ -7,6 +6,7 @@ async function fetchData() {
   );
   const data = await res.json();
   console.log(data);
+  counter.textContent = data;
 }
 
 fetchData();
