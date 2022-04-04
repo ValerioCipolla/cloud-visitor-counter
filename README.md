@@ -20,3 +20,4 @@ Here you'll find a diary of the process:
 ## 04/04/2022
 - Created JavaScript file to keep track of visitors
 - Created a basic lambda function with Python and a basic Gateway API that calls the lambda function https://www.youtube.com/watch?v=uFsaiEhr1zs&t=401s
+- I was struggling to fetch from the API endpoint because of CORS errors - I found the solution here: https://noise.getoto.net/2021/08/17/configuring-cors-on-amazon-api-gateway-apis/
