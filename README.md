@@ -19,3 +19,4 @@ Here you'll find a diary of the process:
 
 ## 04/04/2022
 - Created JavaScript file to keep track of visitors
+- Created a basic lambda function with Python and a basic Gateway API that calls the lambda function https://www.youtube.com/watch?v=uFsaiEhr1zs&t=401s
