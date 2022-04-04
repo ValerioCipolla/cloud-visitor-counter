@@ -16,3 +16,6 @@ Here you'll find a diary of the process:
 - It didn't work at first because I didn't specify a default root object, this solved it https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DefaultRootObject.html
 - Created a new script in package.json to invalidate the CloudFront distribution so it needs to pull the latest objects uploaded in the S3 bucket - https://remarkablemark.org/blog/2019/04/13/copy-s3-invalidate-cloudfront-cache/
 - Created a new script "deploy-frontend" that is run by a GitHub action every time there is a change in a file inside the frontend directory. This script runs two scripts: 's3-upload' to upload the latest version of the files to the S3 bucket and 'invalidate-cloudfront' to clear cache and force the distribution to pull the latest version from the s3 bucket
+
+## 04/04/2022
+- Created JavaScript file to keep track of visitors
