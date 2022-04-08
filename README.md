@@ -23,3 +23,6 @@ Here you'll find a diary of the process:
 - I was struggling to fetch from the API endpoint because of CORS errors - I found the solution here: https://noise.getoto.net/2021/08/17/configuring-cors-on-amazon-api-gateway-apis/
 - Created a DynamoDB Table to keep track of visitors number, created a role with full access to DynamoDB and changed the permissions of the lambda function, to give it the newly created role so I can read and update the number of visitors stored in the table https://www.youtube.com/watch?v=8zhv6GDSDE8
 - Updated code in `main.js` to assign the value of the visitors counter to the value fetched from DynamoDB
+
+## 08/04/2022
+- Created a Python Lambda function to read the number of visitors from the DynamoDB database and increment that number by 1 every time the page is visited. https://highlandsolutions.com/blog/hands-on-examples-for-working-with-dynamodb-boto3-and-python
